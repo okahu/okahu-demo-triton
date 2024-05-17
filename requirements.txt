@@ -1,0 +1,11 @@
+faiss-cpu
+credential_utilties/
+embeddings/
+okahu-handlers
+llama_index
+llama-index-vector-stores-chroma
+llama-index-llms-nvidia-triton
+huggingface-hub<0.23.0
+llama-index-embeddings-huggingface
+chromadb
+okahu-observability
