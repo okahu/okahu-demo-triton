@@ -28,6 +28,10 @@ def setOpenaiEnvironmentVariablesFromConfig(configFilePath):
         [credential_utilties.openai_creds.env_dict, 
          credential_utilties.okahu_creds.env_dict])
 
+def setOkahuEnvironmentVariablesFromConfig(configFilePath):
+    setCredEnvironmentVariablesFromConfig(configFilePath,
+         [credential_utilties.okahu_creds.env_dict])
+
 def setCredEnvironmentVariablesFromConfig(configFilePath, jsonDicts):
     config = configparser.ConfigParser()
     config.read(configFilePath)
