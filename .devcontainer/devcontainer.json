@@ -4,5 +4,6 @@
         "ghcr.io/akhildevelops/devcontainer-features/pip:0": {}
     },
     "postCreateCommand": "pip3 install --user -r requirements.txt",
+    "postCreateCommand": ". ./dev_setup.sh",
     "forwardPorts": [8095,8096]
 }
